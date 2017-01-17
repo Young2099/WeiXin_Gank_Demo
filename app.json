@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/homes/home",
+    "pages/about/about", 
+    "pages/index/index",    
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "pink",
+    "navigationBarTitleText": "小demo",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/homes/home",
+      "text":"首页"
+    },{
+      "pagePath":"pages/about/about",
+      "text":"关于我们"
+    }]
+  }
+}

@@ -1,0 +1,32 @@
+.about{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    padding:20rpx 0;
+    box-sizing:border-box;
+}
+.user-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.title_text{
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  flex-direction:column;
+  background-color: gainsboro;
+  width: 100%;
+  box-sizing: border-box;
+  height: 80px;
+  margin-top: 20px;
+}
+.title_text_item{
+  width: 50px;
+  color: snow;
+  padding: 20px;
+}

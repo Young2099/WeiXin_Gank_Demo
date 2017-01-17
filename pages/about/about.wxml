@@ -1,0 +1,12 @@
+<view>
+<view class="about">
+    <view>
+        <image class="user-avatar" src="{{img}}"></image>
+    </view>
+</view>
+    <view class="title_text">
+        <view class="title_text_item">{{photo}}</view>
+    </view>
+    <view class="title_text"> <view class="title_text_item">{{setTitle}} </view>
+    </view>
+</view>

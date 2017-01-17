@@ -1,0 +1,12 @@
+<view>
+<view class="about">
+<!--使用模块化的操作加载数据列表-->
+    <template name="msgItem">
+        <image src="{{url}}" class='user-avatar'></image>
+        </template>
+</view>
+    <block wx:for="{{images}}" wx:key="unique">
+        <template is="msgItem" data="{{...item}}"/>
+    </block>
+    <view bindtap="loadMore" lastId="{{lastId}}">加载更多</view>
+</view>
