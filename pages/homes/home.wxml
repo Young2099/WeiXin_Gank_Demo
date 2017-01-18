@@ -8,5 +8,5 @@
     <block wx:for="{{images}}" wx:key="unique">
         <template is="msgItem" data="{{...item}}"/>
     </block>
-    <view bindtap="loadMore" lastId="{{lastId}}">加载更多</view>
+    <view bindtap="loadMore" class="text_style">加载更多</view>
 </view>

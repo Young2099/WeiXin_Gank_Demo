@@ -25,4 +25,11 @@
   width: 50px;
   color: snow;
   padding: 20px;
+
 }
+  .text_style{
+    text-align: center;
+    margin: 18px;
+    color: grey;
+    font-size: 18px;
+  }
