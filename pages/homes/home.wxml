@@ -8,5 +8,8 @@
     <block wx:for="{{images}}" wx:key="unique">
         <template is="msgItem" data="{{...item}}"/>
     </block>
+    <loading hidden="{{loadHidden}}" duration="3000" bindchanging="loadingChange">数据加载中....</loading>
     <view bindtap="loadMore" class="text_style">加载更多</view>
+    <toast hidden="{{status}}" duration="3000" bindchange="toastHide">
+        没有更多图片了</toast>
 </view>
